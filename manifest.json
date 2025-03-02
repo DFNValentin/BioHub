@@ -1,0 +1,17 @@
+{
+    "short_name": "Excreție",
+    "name": "Excreția la Plante și Mamifere",
+    "description": "Un set de flashcards pentru învățare",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3f51b5",
+    "icons": [
+  {
+    "src": "icons/dall.webp",
+    "sizes": "512x512",
+    "type": "image/webp"
+  }
+]
+}
+  
