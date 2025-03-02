@@ -204,7 +204,7 @@ const app = Vue.createApp({
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('https://dfnvalentin.github.io/BioHub//service-worker.js')
+    navigator.serviceWorker.register('https://dfnvalentin.github.io/BioHub/service-worker.js')
       .then((registration) => {
         console.log('Service Worker înregistrat cu succes:', registration);
       })
