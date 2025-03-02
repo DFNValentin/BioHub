@@ -1,6 +1,6 @@
 {
     "short_name": "Bio Hub",
-    "name": "Excreția la Plante și Mamifere",
+    "name": "Bio Hub",
     "description": "Un set de flashcards pentru învățare",
     "start_url": "/BioHub/", 
     "display": "standalone",
