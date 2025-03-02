@@ -1,12 +1,11 @@
 const CACHE_NAME = 'pwa-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/app.js',
-  '/icons/dall.webp',
-  // Adaugă orice fișiere importante pe care vrei să le cache-uiesti
+  '/BioHub/',
+  '/BioHub/index.html',
+  '/BioHub/styles.css',
+  '/BioHub/app.js',
+  '/BioHub/icons/dall.webp'
 ];
-
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -18,7 +17,6 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Activare service worker
 self.addEventListener('activate', (event) => {
   const cacheWhitelist = [CACHE_NAME];
   event.waitUntil(
@@ -33,7 +31,6 @@ self.addEventListener('activate', (event) => {
     })
   );
 });
-
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(

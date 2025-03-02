@@ -1,8 +1,8 @@
 {
     "short_name": "Bio Hub",
-    "name": "BioHub",
+    "name": "Excreția la Plante și Mamifere",
     "description": "Un set de flashcards pentru învățare",
-    "start_url": "https://dfnvalentin.github.io/BioHub",
+    "start_url": "/BioHub/", 
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#3f51b5",
